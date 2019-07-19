@@ -1,7 +1,7 @@
 package utils
 
 const (
-	UrlUser    = "https://api.mercadolibre.com/users/"
-	UrlCountry = "https://api.mercadolibre.com/countries/"
+	UrlUser    = "http://localhost:8081/users/"
+	UrlCountry = "http://localhost:8081/countries/"
 	UrlSite    = "http://localhost:8081/sites/"
 )
