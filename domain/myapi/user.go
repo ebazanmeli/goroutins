@@ -1,6 +1,7 @@
 package myapi
 
 import (
+	"../../utils"
 	"../../utils/apierrors"
 	"encoding/json"
 	"fmt"
@@ -38,8 +39,6 @@ type User struct {
 	} `json:"status"`
 }
 
-const urlUser = "https://api.mercadolibre.com/users/"
-
 func (user *User) GetUser() *apierrors.ApiError {
 	if user.ID == 0 {
 		return &apierrors.ApiError{
@@ -48,7 +47,7 @@ func (user *User) GetUser() *apierrors.ApiError {
 		}
 	}
 
-	url := fmt.Sprintf("%s%d", urlUser, user.ID)
+	url := fmt.Sprintf("%s%d", utils.UrlUser, user.ID)
 	res, err := http.Get(url)
 	if err != nil {
 		return &apierrors.ApiError{

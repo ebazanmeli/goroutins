@@ -1,6 +1,7 @@
 package myapi
 
 import (
+	"../../utils"
 	"../../utils/apierrors"
 	"encoding/json"
 	"io/ioutil"
@@ -27,8 +28,6 @@ type Country struct {
 	} `json:"states"`
 }
 
-const urlCountry = "https://api.mercadolibre.com/countries/"
-
 func (country *Country) GetCountry() *apierrors.ApiError {
 	if country.ID == "" {
 		return &apierrors.ApiError{
@@ -37,7 +36,7 @@ func (country *Country) GetCountry() *apierrors.ApiError {
 		}
 	}
 
-	url := urlCountry + country.ID
+	url := utils.UrlCountry + country.ID
 	res, err := http.Get(url)
 	if err != nil {
 		return &apierrors.ApiError{

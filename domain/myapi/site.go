@@ -1,6 +1,7 @@
 package myapi
 
 import (
+	"../../utils/"
 	"../../utils/apierrors"
 	"encoding/json"
 	"io/ioutil"
@@ -32,8 +33,6 @@ type Site struct {
 	}
 }
 
-const urlSite = "https://api.mercadolibre.com/sites/"
-
 func (site *Site) GetSite() *apierrors.ApiError {
 	if site.ID == "" {
 		return &apierrors.ApiError{
@@ -42,7 +41,7 @@ func (site *Site) GetSite() *apierrors.ApiError {
 		}
 	}
 
-	url := urlSite + site.ID
+	url := utils.UrlSite + site.ID
 	res, err := http.Get(url)
 	if err != nil {
 		return &apierrors.ApiError{
