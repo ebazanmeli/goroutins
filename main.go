@@ -16,5 +16,6 @@ func main() {
 	router.GET("/country/:countryID", controllers.GetCountry)
 	router.GET("/site/:siteID", controllers.GetSite)
 	router.GET("/result/:userID", controllers.GetResult)
+	router.GET("/resultRL/:userID", controllers.GetResultRateLimited)
 	router.Run(port)
 }

@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b49fc92-1fc3-42da-ab49-7cd0d55c8e75" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/controllers/country_controller.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/myapi/country_controller.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/myapi/result_controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/result_controller.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/myapi/site_controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/site_controller.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/myapi/user_controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/user_controller.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/myapi/country.go" beforeDir="false" afterPath="$PROJECT_DIR$/domain/country.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/myapi/result.go" beforeDir="false" afterPath="$PROJECT_DIR$/domain/result.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/myapi/site.go" beforeDir="false" afterPath="$PROJECT_DIR$/domain/site.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/domain/myapi/user.go" beforeDir="false" afterPath="$PROJECT_DIR$/domain/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/country_controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/country_controller.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/result_controller.go" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/result_controller.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicies/myapi/country_service.go" beforeDir="false" afterPath="$PROJECT_DIR$/servicies/country_service.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicies/myapi/result_service.go" beforeDir="false" afterPath="$PROJECT_DIR$/servicies/result_service.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicies/myapi/site_service.go" beforeDir="false" afterPath="$PROJECT_DIR$/servicies/site_service.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/servicies/myapi/user_service.go" beforeDir="false" afterPath="$PROJECT_DIR$/servicies/user_service.go" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,11 +19,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
+            <state relative-caret-position="270">
+              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
               <folding>
                 <element signature="e#14#76#0" expanded="true" />
               </folding>
@@ -43,12 +32,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/country_controller.go">
+        <entry file="file://$PROJECT_DIR$/controllers/result_controller.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+            <state relative-caret-position="510">
+              <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
               <folding>
-                <element signature="e#15#90#0" expanded="true" />
+                <element signature="e#21#120#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -61,18 +50,6 @@
               <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
               <folding>
                 <element signature="e#19#71#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/controllers/user_controller.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-              <folding>
-                <element signature="e#21#126#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -123,14 +100,14 @@
         <option value="$PROJECT_DIR$/domain/myapi/country.go" />
         <option value="$PROJECT_DIR$/controllers/myapi/country_controller.go" />
         <option value="$PROJECT_DIR$/servicies/country_service.go" />
-        <option value="$PROJECT_DIR$/controllers/result_controller.go" />
-        <option value="$PROJECT_DIR$/main.go" />
         <option value="$PROJECT_DIR$/servicies/result_service.go" />
-        <option value="$PROJECT_DIR$/controllers/country_controller.go" />
         <option value="$PROJECT_DIR$/servicies/site_service.go" />
         <option value="$PROJECT_DIR$/controllers/site_controller.go" />
         <option value="$PROJECT_DIR$/servicies/user_service.go" />
         <option value="$PROJECT_DIR$/controllers/user_controller.go" />
+        <option value="$PROJECT_DIR$/controllers/country_controller.go" />
+        <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/controllers/result_controller.go" />
       </list>
     </option>
   </component>
@@ -250,7 +227,7 @@
       <workItem from="1563304356691" duration="5526000" />
       <workItem from="1563366638251" duration="16395000" />
       <workItem from="1563539171112" duration="168000" />
-      <workItem from="1563554213310" duration="7894000" />
+      <workItem from="1563554213310" duration="9617000" />
     </task>
     <task id="LOCAL-00001" summary="first commit go routins">
       <created>1563392985822</created>
@@ -273,11 +250,18 @@
       <option name="project" value="LOCAL" />
       <updated>1563561026333</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="modifico la estructura">
+      <created>1563566605201</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1563566605201</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45184000" />
+    <option name="totallyTimeSpent" value="46907000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -292,26 +276,26 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26752505" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16738197" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32961586" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39900866" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32961586" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32961586" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32961586" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.3197026" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.39846742" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32961586" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32961586" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32961586" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -370,7 +354,8 @@
     <MESSAGE value="first commit go routins" />
     <MESSAGE value="se implementa channel y se extraen las urls" />
     <MESSAGE value="update urls" />
-    <option name="LAST_COMMIT_MESSAGE" value="update urls" />
+    <MESSAGE value="modifico la estructura" />
+    <option name="LAST_COMMIT_MESSAGE" value="modifico la estructura" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/domain/persona.go" />
@@ -412,23 +397,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/result_controller.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
-          <folding>
-            <element signature="e#15#126#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/domain/country.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="30" column="24" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/domain/result.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -453,16 +421,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="57" selection-start-line="15" selection-start-column="57" selection-end-line="15" selection-end-column="57" />
-          <folding>
-            <element signature="e#14#76#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/site_controller.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -480,12 +438,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/country_controller.go">
+    <entry file="file://$PROJECT_DIR$/controllers/user_controller.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        <state relative-caret-position="450">
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
           <folding>
-            <element signature="e#15#90#0" expanded="true" />
+            <element signature="e#21#126#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -500,12 +458,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/user_controller.go">
+    <entry file="file://$PROJECT_DIR$/domain/country.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+        <state relative-caret-position="840">
+          <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/country_controller.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
           <folding>
-            <element signature="e#21#126#0" expanded="true" />
+            <element signature="e#21#115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/result_controller.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
+          <folding>
+            <element signature="e#21#120#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+          <folding>
+            <element signature="e#14#76#0" expanded="true" />
           </folding>
         </state>
       </provider>
