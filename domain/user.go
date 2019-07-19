@@ -1,8 +1,8 @@
-package myapi
+package domain
 
 import (
-	"../../utils"
-	"../../utils/apierrors"
+	"../utils"
+	"../utils/apierrors"
 	"encoding/json"
 	"fmt"
 	"io/ioutil"

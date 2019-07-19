@@ -1,7 +1,7 @@
 package main
 
 import "github.com/gin-gonic/gin"
-import "./controllers/myapi"
+import "./controllers"
 
 const (
 	port = ":8080"
@@ -12,9 +12,9 @@ var (
 )
 
 func main() {
-	router.GET("/user/:userID", myapi.GetUser)
-	router.GET("/country/:countryID", myapi.GetCountry)
-	router.GET("/site/:siteID", myapi.GetSite)
-	router.GET("/result/:userID", myapi.GetResult)
+	router.GET("/user/:userID", controllers.GetUser)
+	router.GET("/country/:countryID", controllers.GetCountry)
+	router.GET("/site/:siteID", controllers.GetSite)
+	router.GET("/result/:userID", controllers.GetResult)
 	router.Run(port)
 }

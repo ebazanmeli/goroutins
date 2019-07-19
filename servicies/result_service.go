@@ -1,25 +1,25 @@
-package myapi
+package servicies
 
 import (
-	"../../domain/myapi"
-	"../../utils/apierrors"
+	"../domain"
+	"../utils/apierrors"
 )
 
-var user *myapi.User
+var user *domain.User
 
-func GetResultFromAPI(userID int64) (*myapi.Result, *apierrors.ApiError) {
+func GetResultFromAPI(userID int64) (*domain.Result, *apierrors.ApiError) {
 
 	getUser(userID)
 
-	countryChannel := make(chan *myapi.Country)
-	siteChannel := make(chan *myapi.Site)
+	countryChannel := make(chan *domain.Country)
+	siteChannel := make(chan *domain.Site)
 	if user != nil {
 		go getCountry(user, countryChannel)
 		go getSite(user, siteChannel)
 	}
 	country, site := <-countryChannel, <-siteChannel
 
-	result := &myapi.Result{
+	result := &domain.Result{
 		User:    user,
 		Country: country,
 		Site:    site,
@@ -37,9 +37,9 @@ func getUser(userID int64) *apierrors.ApiError {
 	return nil
 }
 
-func getCountry(user *myapi.User, countryChannel chan *myapi.Country) *apierrors.ApiError {
+func getCountry(user *domain.User, countryChannel chan *domain.Country) *apierrors.ApiError {
 	var err *apierrors.ApiError
-	var country *myapi.Country
+	var country *domain.Country
 	country, err = GetCountryFromAPI(user.CountryID)
 	if err != nil {
 		return err
@@ -48,9 +48,9 @@ func getCountry(user *myapi.User, countryChannel chan *myapi.Country) *apierrors
 	return nil
 }
 
-func getSite(user *myapi.User, siteChannel chan *myapi.Site) *apierrors.ApiError {
+func getSite(user *domain.User, siteChannel chan *domain.Site) *apierrors.ApiError {
 	var err *apierrors.ApiError
-	var site *myapi.Site
+	var site *domain.Site
 	site, err = GetSiteFromAPI(user.SiteID)
 	if err != nil {
 		return err

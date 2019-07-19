@@ -1,4 +1,4 @@
-package myapi
+package domain
 
 type Result struct {
 	User    *User

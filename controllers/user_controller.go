@@ -1,14 +1,18 @@
-package myapi
+package controllers
 
 import (
-	"../../servicies/myapi"
-	"../../utils/apierrors"
+	"../servicies"
+	"../utils/apierrors"
 	"github.com/gin-gonic/gin"
 	"net/http"
 	"strconv"
 )
 
-func GetResult(c *gin.Context) {
+const (
+	paramUserID = "userID"
+)
+
+func GetUser(c *gin.Context) {
 	userID := c.Param(paramUserID)
 	id, err := strconv.ParseInt(userID, 10, 64)
 	if err != nil {
@@ -19,10 +23,10 @@ func GetResult(c *gin.Context) {
 		c.JSON(apiError.Status, apiError)
 		return
 	}
-	result, apiError := myapi.GetResultFromAPI(id)
+	user, apiError := servicies.GetUserFromAPI(id)
 	if apiError != nil {
 		c.JSON(apiError.Status, apiError)
 		return
 	}
-	c.JSON(http.StatusOK, result)
+	c.JSON(http.StatusOK, user)
 }

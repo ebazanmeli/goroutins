@@ -1,7 +1,7 @@
-package myapi
+package controllers
 
 import (
-	"../../servicies/myapi"
+	"../servicies"
 	"github.com/gin-gonic/gin"
 	"net/http"
 )
@@ -12,7 +12,7 @@ const (
 
 func GetSite(c *gin.Context) {
 	siteID := c.Param(paramSiteID)
-	site, apiError := myapi.GetSiteFromAPI(siteID)
+	site, apiError := servicies.GetSiteFromAPI(siteID)
 	if apiError != nil {
 		c.JSON(apiError.Status, apiError)
 		return
